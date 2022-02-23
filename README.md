@@ -3,15 +3,25 @@
 - Desafio do **Bootcamp#4 Java** da Dio sobre Git/Github
 
 ## Links Úteis
-[Sintaxe básicas de Markdown](https://web.dio.me/lab/criando-seu-primeiro-repositorio-no-github-para-compartilhar-seu-progresso/learning/e714fb1c-4990-4c47-99a5-d97703e40b4d)
+[Sintaxe básicas de Markdown](https://www.markdownguide.org/basic-syntax/)
 
 [Comandos do Git](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
 
 ## Programas em Java
 
-- Como executar o primeiro programa em java:
+### Como executar o primeiro programa em java:
  
- javac -d Dio_desafio_Git-Github/compilados/ -sourcepath Dio_desafio_Git-Github Dio_desafio_Git-Github/Javas/myfirstProgramJava.java 
+> javac -d Dio_desafio_Git-Github/compilados/ -sourcepath Dio_desafio_Git-Github Dio_desafio_Git-Github/Javas/myfirstProgramJava.java 
 
-('-d' é para redirecionar os arquivos de saída para a pasta 'compilados')
+- javac (java compiler)
+
+- '-d' (redireciona os arquivos de saída para a pasta passada em sequencia como parâmetro)
+
+- 'Dio_desafio_Git-Github/compilados/' (pasta alvo para as saídas)
+
+- '-sourcepath' (define a pasta raiz do projeto)
+
+- 'Dio_desafio_Git-Github' (pasta raiz passada como parâmetro)
+
+- 'Dio_desafio_Git-Github/Javas/myfirstProgramJava.java' (caminho para o programa que deve ser executado)
 
